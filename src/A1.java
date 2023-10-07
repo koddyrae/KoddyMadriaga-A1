@@ -36,8 +36,9 @@ public class A1 {
             listOfTokens = checkDuplicates(wordList);
 
             System.out.println("Total Words: " + totalWordCount);
-            System.out.println("Stop Words: " + stopWordCount);
             System.out.println("Unique Words: " + listOfTokens.size());
+            System.out.println("Stop Words: " + stopWordCount);
+
 
             writeMostList(listOfTokens);
             writeLeastList(listOfTokens);
