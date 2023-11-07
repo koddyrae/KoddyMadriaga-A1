@@ -16,6 +16,7 @@ public class A1 {
 
         try {
             Scanner input = new Scanner(System.in);
+            System.out.println("Enter the file path: ");
             File filePath = new File(input.next());
             Scanner fileReader = new Scanner(filePath);
 
