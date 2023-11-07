@@ -44,6 +44,9 @@ public class A1 {
             writeLeastList(listOfTokens);
             writeList(listOfTokens);
 
+            fileReader.close();
+            input.close();
+
         } catch (IOException e) {
             System.out.print("An IO Exception has occurred");
         }
